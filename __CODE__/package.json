@@ -1,0 +1,45 @@
+{
+  "name": "mehranabi.github.io",
+  "version": "1.0.0",
+  "description": "Mehran Abghari's personal website/blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=1 next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehranabi/mehranabi.github.io.git"
+  },
+  "keywords": [
+    "mehran",
+    "abghari"
+  ],
+  "author": "Mehran Abghari <mehran.ab80@gmail.com> (https://github.com/mehranabi)",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/mehranabi/mehranabi.github.io/issues"
+  },
+  "homepage": "https://github.com/mehranabi/mehranabi.github.io#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-css": "^1.0.1",
+    "jss": "^9.8.7",
+    "next": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-jss": "^8.6.1",
+    "url-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
+}
